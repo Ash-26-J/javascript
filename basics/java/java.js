@@ -15,3 +15,6 @@ const github = "Ash"
 const rep = 20
 
 console.log('hello my name is ashish my repo is ${github} and my repo count is ${rep}');
+const game= new String('hiteshhc')
+
+console.log(game.__proto__);
