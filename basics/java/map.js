@@ -59,3 +59,16 @@ const booko =books.filter((bk)=>{
     }
 })
 console.log(booko);
+
+const num =[1,2,3]
+const fring = num.reduce( (acc,currval)=> {
+    console.log('acc'+acc+'currval'+currval);
+    return acc+currval
+},0)
+console.log(fring);
+//add
+const bookr =books.reduce((acc,bk)=>{
+    return acc+bk.publish
+},0)
+console.log(bookr);
+//reduce basically combinig
